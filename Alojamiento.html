@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    color: #343a40;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alojamiento - Excursión al Lago de Atitlán</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Excursión al Lago de Atitlán</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Atracciones.html">Atracciones</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Alojamiento.html">Alojamiento</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container mt-4">
+        <h1>Opciones de Alojamiento</h1>
+        <div class="row">
+            <!-- Hotel Porta -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.QkT1mukcicnh139thzBLKAHaFj?rs=1&pid=ImgDetMain" class="card-img-top" alt="Hotel Porta Lago Atitlán">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Porta Lago Atitlán</h5>
+                        <p class="card-text">Un hotel encantador con vistas al lago y cómodas instalaciones. Ideal para una estancia relajante.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#hotel1Modal">Más Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hotel Vista Lago -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.i45gU4sra_NwJOJN8wiVHQAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="Hotel Vista Lago">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Vista Lago</h5>
+                        <p class="card-text">Ubicado cerca del lago, ofrece una vista panorámica y excelente servicio.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#hotel2Modal">Más Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hotel Relax -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.wH7yfgeF8M0NsQLRSZX9eQHaE8?rs=1&pid=ImgDetMain" class="card-img-top" alt="Hotel Relax">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel Relax</h5>
+                        <p class="card-text">Un hotel tranquilo y cómodo, perfecto para quienes buscan relajarse después de un día de exploración.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#hotel3Modal">Más Información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Hotel Porta -->
+    <div class="modal fade" id="hotel1Modal" tabindex="-1" role="dialog" aria-labelledby="hotel1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hotel1ModalLabel">Hotel Porta Lago Atitlán</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detalles adicionales sobre el Hotel Porta Lago Atitlán.</p> <br>
+                    <p>El hotel Porta es una buena opción para hacer eventos como:</p> <br>
+                    <p>XV años</p> <br>
+                    <p>Convivios</p> <br>
+                    <p>Bodas</p> <br>
+                    <p>Eventos empresariales</p> <br>
+                    <p>Reservanos al tel: 5458-5404</p> <br>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Hotel Vista Lago -->
+    <div class="modal fade" id="hotel2Modal" tabindex="-1" role="dialog" aria-labelledby="hotel2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hotel2ModalLabel">Hotel Vista Lago</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detalles adicionales sobre el Hotel Vista Lago.</p>
+                    <p>El hotel Vista Lago es una buena opción para pasar tiempo en familia y disfrutar de vacaciones:</p> <br>
+                    <p>Bebidas naturales ilimitadas</p> <br>
+                    <p>Bebidas alcohólicas ilimitadas</p> <br>
+                    <p>Espacio para jugar Golf</p> <br>
+                    <p>Espacio para bailar</p> <br>
+                    <p>Reservanos al tel: 6620-0020</p> <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Hotel Relax -->
+    <div class="modal fade" id="hotel3Modal" tabindex="-1" role="dialog" aria-labelledby="hotel3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hotel3ModalLabel">Hotel Relax</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detalles adicionales sobre el Hotel Relax.</p>
+                    <p>El Relax es para disfrutar de las vacaciones, puedes disfrutar como:</p> <br>
+                    <p>Piscina con olas artificiales</p> <br>
+                    <p>Jacuzzi</p> <br>
+                    <p>Sauna</p> <br>
+                    <p>SPA</p> <br>
+                    <p>Reservanos al tel: 5501-6358</p> <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>Luis Enrique Silva Solares | 2024 Desarrollo Web Sección "B"</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
