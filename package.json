@@ -1,0 +1,11 @@
+{
+  "name": "htrabajo6",
+  "version": "1.0.0",
+  "main": "hTrabajo6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enrique Silva",
+  "license": "ISC",
+  "description": ""
+}
