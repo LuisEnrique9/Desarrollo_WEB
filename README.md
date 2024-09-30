@@ -5,4 +5,6 @@
 El metodo GET: http://localhost:3000/users  devuelve todos los usuarios creados por medio de JSON
 El metodo PUT: http://localhost:3000/users/5645221586 Actualiza por medio del DPI los parametros de nombre, corre y password por formato JSON
 Y el metodo DELTE: http://localhost:3000/users/5645221586  elimina el objeto por medio del DPI
-Desarrollador: Luis Enrique Silva Solares
+
+Desarrollador: Luis Enrique Silva Solares 9490-19-16749  
+               Miguel Garcia -
