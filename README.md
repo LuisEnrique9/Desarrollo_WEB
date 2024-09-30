@@ -7,4 +7,4 @@ El metodo PUT: http://localhost:3000/users/5645221586 Actualiza por medio del DP
 Y el metodo DELTE: http://localhost:3000/users/5645221586  elimina el objeto por medio del DPI
 
 Desarrollador: Luis Enrique Silva Solares 9490-19-16749  
-               Miguel Garcia -
+               Miguel Antonio García Mazariegos 9490-05-4756
