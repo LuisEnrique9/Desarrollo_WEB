@@ -1,7 +1,6 @@
-const express = require("express");
-const cors = require("cors");
+const express = require('express');
+const cors = require('cors');
 const app = express();
-import express from 'express';
 const jwt = requiere ('jsonwebtoken');
 requiere('dotenv').config();
 
