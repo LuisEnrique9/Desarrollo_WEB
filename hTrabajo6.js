@@ -1,9 +1,38 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
+import express from 'express';
+const jwt = requiere ('jsonwebtoken');
+requiere('dotenv').config();
 
 app.use(cors());
 app.use(express.json());
+
+//Crear firma
+let action= function(request, response) {
+ response.body
+ let token=jwt.sing({"user":"Sergio"}, process.env.CLAVE)
+ response.status(200).json({"token":token})
+
+}
+
+app.get("/", action)
+
+let mdw = function(req, res){
+console.log(req.headers["token"])
+jwt.verify(req.headers["token"], process.env.CLAVE, function(err, decode){
+  console.log(decode)
+  Next();
+})
+
+}
+
+app.post("/user", mdw, function(request, response){
+response.status(200).json(usuarios);
+
+})
+
+app.listen(process.env.PORT)
 
 let usuarios = [];
 
