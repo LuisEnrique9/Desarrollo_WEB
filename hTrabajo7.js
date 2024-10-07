@@ -92,6 +92,6 @@ app.delete("/users/:dpi", (req, res) => {
 });
 
 // Servidor escuchando en el puerto 3000
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Servidor escuchando por el puerto 3000");
 });
