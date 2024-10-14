@@ -4,8 +4,8 @@
   "main": "hTrabajo6.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts"
+   "start": "node dist/hTrabajo6.js",
+    "dev": "nodemon src/hTrabajo6.ts"
   },
   "author": "Enrique Silva",
   "license": "ISC",
